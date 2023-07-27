@@ -2,10 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\contact;
-use App\Models\Contacts;
-use App\Models\Gallery;
-use App\Models\Images;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use stdClass;
