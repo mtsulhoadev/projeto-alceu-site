@@ -13,8 +13,8 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Páginas</a>
                 <div class="dropdown-menu fade-up m-0">
-                    <a href="price.html" class="dropdown-item">Cotação de preços</a>
-                    <a href="feature.html" class="dropdown-item">Diferenciais</a>
+                    <a href="{{ Route('quote') }}" class="dropdown-item">Cotação de preços</a>
+                    <a href="{{ Route('about') }}" class="dropdown-item">Diferenciais</a>
                 </div>
             </div>
             <a href="{{ Route('contact') }}" class="nav-item nav-link">Contato</a>

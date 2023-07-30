@@ -22,15 +22,15 @@
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Seu Nome"
+                                    <input type="text" id="name" class="form-control border-0" placeholder="Seu Nome"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Seu E-Mail"
+                                    <input type="email" id="email" class="form-control border-0" placeholder="Seu E-Mail"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Número de Telefone"
+                                    <input type="text" id="phone" class="form-control border-0" placeholder="Número de Telefone"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">

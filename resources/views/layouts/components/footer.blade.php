@@ -5,12 +5,12 @@
                 <h4 class="text-light mb-4">Endereços</h4>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Brasília-DF</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>55 (61) 9 8467-7498</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>email-exemplo@gmail.com</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>mudancasalceu@gmail.com</p>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="{{ Route('contact') }}"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="{{ Route('contact') }}"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@UlhoaGamers"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="{{ Route('contact') }}"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -23,18 +23,18 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Links rápidos</h4>
-                <a class="btn btn-link" href="">Sobre nós</a>
-                <a class="btn btn-link" href="">Contate-nos</a>
-                <a class="btn btn-link" href="">Nossos serviços</a>
+                <a class="btn btn-link" href="{{ Route('about') }}">Sobre nós</a>
+                <a class="btn btn-link" href="{{ Route('contact') }}">Contate-nos</a>
+                <a class="btn btn-link" href="{{ Route('service') }}">Nossos serviços</a>
                 <a class="btn btn-link" href="">Termos e condições</a>
-                <a class="btn btn-link" href="">Suporte</a>
+                <a class="btn btn-link" href="{{ Route('contact') }}">Suporte</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Notícias</h4>
-                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <p>Confira aqui as ultimas notícias!</p>
                 <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Seu E-Mail">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Cadastre-se!</button>
                 </div>
             </div>
         </div>

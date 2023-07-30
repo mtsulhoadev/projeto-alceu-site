@@ -19,7 +19,6 @@ Route::group(['prefix' => '/'], function() {
     Route::get('/about', [HomeController::class, 'about'])->name('about');
     Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
     Route::get('/feature', [HomeController::class, 'feature'])->name('feature');
-    Route::get('/price', [HomeController::class, 'price'])->name('price');
     Route::get('/quote', [HomeController::class, 'quote'])->name('quote');
     Route::get('/service', [HomeController::class, 'service'])->name('service');
     Route::get('/team', [HomeController::class, 'team'])->name('team');

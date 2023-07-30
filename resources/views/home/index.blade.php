@@ -15,9 +15,9 @@
                                         class="text-primary">Problema</span> Logistico</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Sempre com foco no bem estar e conforto
                                     dos nossos clientes, com segurança e organização nas logisticas. </p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Conheça Mais
+                                <a href="{{ Route('about') }}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Conheça Mais
                                 </a>
-                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Cotação de preços
+                                <a href="{{ Route('quote') }}" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Cotação de preços
                                 </a>
                             </div>
                         </div>
@@ -36,9 +36,9 @@
                                         class="text-primary">Problema</span> Logistico</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Sempre com foco no bem estar e conforto
                                     dos nossos clientes, com segurança e organização nas logisticas. </p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Conheça Mais
+                                <a href="{{ Route('about') }}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Conheça Mais
                                 </a>
-                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Cotação de preços
+                                <a href="{{ Route('quote') }}" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Cotação de preços
                                 </a>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                             <p class="m-0">Transportando o seu sonho com agilidade e segurança.</p>
                         </div>
                     </div>
-                    <a href="" class="btn btn-primary py-3 px-5">Conheça mais!</a>
+                    <a href="{{ Route('about') }}" class="btn btn-primary py-3 px-5">Conheça mais!</a>
                 </div>
             </div>
         </div>
@@ -147,7 +147,7 @@
                         </div>
                         <h4 class="mb-3">Mudanças Residenciais</h4>
                         <p>Nossos serviços de mudanças residenciais são negociados diretamente com o cliente, com segurança e tratamento especial.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Conheça
+                        <a class="btn-slide mt-2" href="{{ Route('quote') }}"><i class="fa fa-arrow-right"></i><span>Conheça
                                 Mais</span></a>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                         </div>
                         <h4 class="mb-3">Mudanças para Empresas</h4>
                         <p>A nossa solução para as outras empresas, é oferecida de uma forma atenciosa. Quando se trata de Mobilia Comercial!</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Conheça
+                        <a class="btn-slide mt-2" href="{{ Route('quote') }}"><i class="fa fa-arrow-right"></i><span>Conheça
                             Mais</span></a>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
                         </div>
                         <h4 class="mb-3">Soluções para Logisticas</h4>
                         <p>Resolvemos Problemas de Logistica, Como Entregas de Eletrodomésticos ou Outras Mobilias.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Conheça
+                        <a class="btn-slide mt-2" href="{{ Route('quote') }}"><i class="fa fa-arrow-right"></i><span>Conheça
                             Mais</span></a>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                         </div>
                         <h4 class="mb-3">Gestão de Almoxarifado</h4>
                         <p>Organização de Estoques e Encomendas para o Melhor Controle de Recebimento, Entrega e a Segurança.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Conheça
+                        <a class="btn-slide mt-2" href="{{ Route('quote') }}"><i class="fa fa-arrow-right"></i><span>Conheça
                             Mais</span></a>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                         </div>
                         <h4 class="mb-3">Embalagens para Encomendas</h4>
                         <p>Quando se trata de Embalagens, Precisa ser da Forma mais segura possível.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Conheça
+                        <a class="btn-slide mt-2" href="{{ Route('quote') }}"><i class="fa fa-arrow-right"></i><span>Conheça
                             Mais</span></a>
                     </div>
                 </div>
@@ -315,8 +315,8 @@
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="text-center">
-                <h6 class="text-secondary text-uppercase">Testimonial</h6>
-                <h1 class="mb-0">Our Clients Say!</h1>
+                <h6 class="text-secondary text-uppercase">Relatos dos clientes</h6>
+                <h1 class="mb-0">O que nossos clientes acham!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item p-4 my-5">
@@ -325,12 +325,14 @@
                         <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg"
                             style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="m-0">Profession</p>
+                            <h5 class="mb-1">Anônimo</h5>
+                            <p class="m-0">Cliente</p>
                         </div>
                     </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos.
-                        Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">"Incrível! Seu negócio é realmente excepcional em todos os aspectos. 
+                        Desde o atendimento ao cliente até a qualidade dos produtos/serviços oferecidos, 
+                        vocês superaram todas as minhas expectativas."
+                        </p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
@@ -338,12 +340,14 @@
                         <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg"
                             style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="m-0">Profession</p>
+                            <h5 class="mb-1">Anônimo</h5>
+                            <p class="m-0">Cliente</p>
                         </div>
                     </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos.
-                        Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">"Parabéns pela excelência e dedicação ao seu negócio. 
+                        É notável o quanto vocês se esforçam para proporcionar uma experiência única aos clientes. 
+                        Tenho certeza de que o sucesso é merecido."
+                        </p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
@@ -351,12 +355,13 @@
                         <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg"
                             style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="m-0">Profession</p>
+                            <h5 class="mb-1">Anônimo</h5>
+                            <p class="m-0">Cliente</p>
                         </div>
                     </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos.
-                        Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">"Eu fico impressionado com a paixão que você coloca em cada detalhe do seu negócio. 
+                        É evidente que você realmente se importa com a satisfação dos clientes e a entrega de um serviço/produto de alta qualidade."
+                        </p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
@@ -364,13 +369,29 @@
                         <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg"
                             style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="m-0">Profession</p>
+                            <h5 class="mb-1">Anônimo</h5>
+                            <p class="m-0">Cliente</p>
                         </div>
                     </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos.
-                        Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">"Estou muito impressionado com o nível de profissionalismo e comprometimento que o seu negócio demonstra. 
+                        É óbvio que vocês se empenham para manter a qualidade elevada, 
+                        e isso é digno de admiração."
+                        </p>
                 </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg"
+                            style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Anônimo</h5>
+                            <p class="m-0">Cliente</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">"Sua visão empreendedora e a capacidade de oferecer algo único no mercado é inspiradora. 
+                        Estou impressionado com o crescimento e sucesso que você alcançou com o seu negócio." 
+                        </p>
+                </div> 
             </div>
         </div>
     </div>
