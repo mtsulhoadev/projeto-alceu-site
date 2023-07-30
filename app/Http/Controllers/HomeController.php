@@ -53,17 +53,6 @@ class HomeController extends Controller
     }
 
     /**
-     * Preços
-     *
-     * @return void
-     */
-    public function price()
-    {
-        $pageName = 'Preço';
-        return view('price.index', ['pageName' => $pageName]);
-    }
-
-    /**
      * Cotas
      *
      * @return void
@@ -108,8 +97,8 @@ class HomeController extends Controller
 
         /* informações do usuario. */
         $user        = new stdClass();
-        $user->email = 'wendelulhoa@gmail.com';
-        $user->name  = 'wendel ulhoa';
+        $user->email = 'mudancasalceu@gmail.com';
+        $user->name  = 'Mudanças Alceu';
 
         /* informações do contato. */
         $contact           = new stdClass();
