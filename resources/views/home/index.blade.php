@@ -315,8 +315,8 @@
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="text-center">
-                <h6 class="text-secondary text-uppercase">Testimonial</h6>
-                <h1 class="mb-0">Our Clients Say!</h1>
+                <h6 class="text-secondary text-uppercase">Relatos dos clientes</h6>
+                <h1 class="mb-0">O que nossos clientes acham!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item p-4 my-5">
