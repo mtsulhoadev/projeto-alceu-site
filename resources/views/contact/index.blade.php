@@ -47,7 +47,25 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Enviar Mensagem</button>
+                                    <div class="actions">
+                                        <button 
+                                        class="btn btn-primary w-100 py-3" data-bs-toggle="modal" data-bs-target="#contactModal_{{$item+>id}}" type="submit">Enviar Mensagem</button>
+                                    </div>
+                                </div>
+                                <div class="modal-fade" id="#contactModal_{{$item+>id}}" tabindex="-1" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5">Sucesso!</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <span><strong>Sua mensagem foi entregue com sucesso!</strong></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </form>
